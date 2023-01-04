@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIFConverter", "GIFConverter\GIFConverter.csproj", "{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIFConverterDemoApp", "GIFConverterDemoApp\GIFConverterDemoApp.csproj", "{9B61EBAD-A8C5-4B80-A3BD-47FA7F0A8948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B61EBAD-A8C5-4B80-A3BD-47FA7F0A8948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B61EBAD-A8C5-4B80-A3BD-47FA7F0A8948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B61EBAD-A8C5-4B80-A3BD-47FA7F0A8948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B61EBAD-A8C5-4B80-A3BD-47FA7F0A8948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

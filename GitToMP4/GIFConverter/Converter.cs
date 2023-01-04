@@ -4,10 +4,9 @@ namespace GIFConverter
 {
     public class Converter
     {
-        private readonly string arguments = string.Empty;
         private readonly string ffmpegExecutable = "ffmpeg";
 
-        private const string ARGUMENTS_TEMPLATE = "-i {0} -pix_fmt yuv420p {1}.mp4";
+        private const string ARGUMENTS_TEMPLATE = "-i {0} -pix_fmt yuv420p {1}";
 
         public Converter(string ffmpegExecutable)
         {
@@ -19,10 +18,9 @@ namespace GIFConverter
             var arguments = string.Format(ARGUMENTS_TEMPLATE, source, output);
             try
             {
-                using (var proc = Process.Start(ffmpegExecutable, arguments))
-                {
-                    return true;
-                }
+                var proc = Process.Start(ffmpegExecutable, arguments);
+                proc.WaitForExit();
+                return true;
             } catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
