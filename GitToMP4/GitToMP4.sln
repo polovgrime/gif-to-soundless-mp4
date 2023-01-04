@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIFConverter", "GIFConverter\GIFConverter.csproj", "{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA2B0A6-F64A-4AC4-B9A8-B0E9DAA1A12D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
