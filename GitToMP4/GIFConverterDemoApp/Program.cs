@@ -3,7 +3,7 @@ using GIFConverter;
 
 Console.WriteLine("Started converting GIF to MP4 using FFmpeg");
 
-var converter = new Converter(@"D:\ffmpeg\bin\ffmpeg.exe");
+var converter = new Converter(@"ffmpeg");
 
 if (converter.Convert(@"D:\test.gif", @"D:\test.mp4"))
 {

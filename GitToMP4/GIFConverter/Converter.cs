@@ -6,7 +6,7 @@ namespace GIFConverter
     {
         private readonly string ffmpegExecutable = "ffmpeg";
 
-        private const string ARGUMENTS_TEMPLATE = "-i {0} -pix_fmt yuv420p {1}";
+        private const string ARGUMENTS_TEMPLATE = "-i {0} -pix_fmt yuv420p -vf \"pad=ceil(iw/2)*2:ceil(ih/2)*2\" {1}";
 
         public Converter(string ffmpegExecutable)
         {
